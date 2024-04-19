@@ -1,0 +1,306 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header span{
+ margin-left: 50px;
+}
+main{
+  background-color: #000;
+      height: 100vh;
+}
+/* container */
+.container{
+  display: flex;
+  justify-content: center;
+/* 
+  grid-template-columns: auto auto; */
+}
+/* etapes */
+.etages_one ul{
+ 
+  margin-left: 56px;
+  display: grid;
+  gap: 64px;
+  position: absolute;
+}
+
+.etages_one h3{
+  
+  color: #E71A1A;
+  margin-left: 64px;
+}
+
+.etages_one ul li{
+  border: 1px solid;
+  list-style: none;
+  border-radius: 90px;
+  margin-top: 43px;
+  background-color: gray;
+  width: 39px;
+  padding: 6px
+}
+
+
+/* button start/reset /steeps */
+.button  {
+
+  margin-top: 52vh;
+  display: flex;
+  
+
+}
+#Reset{
+  background-color: #61605A;
+    color: white;
+}
+
+.button button {
+
+  border-radius: 10px;
+  width: 6vw;
+  margin-right: 14px;
+  height: 6vh;
+  margin-top: 31vh;
+  margin-left: 34px;
+  border-radius: 51px;
+
+}
+
+/* button sensor */
+
+ul button {
+
+  border: 1px solid;
+  border-radius: 90px;
+  margin-top: 6px;
+  background-color: D9D9D9;
+  width: 39px;
+  padding: 6px;
+}
+/* step */
+.Step{
+  width: 124px;
+  border-radius: 15px;
+  padding: 24px;
+  margin-top: 51px;
+  margin-left: 42px;
+  background-color: #D9D9D9;
+}
+
+#screen{
+  overflow: auto;
+  width: 252px;
+  height: 68vh;
+  background-color: #492A2A;
+  border-radius: 34px;
+}
+
+
+
+
+
+
+
+/*mini_container*/
+.mini-container{
+  display: grid;
+}
+.container_R4{
+  background-color: #61605A;
+  width: 26vw;
+  border-radius: 25px;
+  height: 17vh;
+
+}
+
+.container_R3{
+  background-color: #61605A;
+  width: 26vw;
+  border-radius: 25px;
+  height: 17vh;
+  margin-top: 3px;
+
+}
+
+.container_R2{
+  background-color: #61605A;
+  width: 26vw;
+  border-radius: 25px;
+  height: 17vh;
+  margin-top: 3px;
+
+}
+.container_R1{
+  background-color: #61605A;
+  width: 26vw;
+  border-radius: 25px;
+  height: 17vh;
+  margin-top: 3px;
+
+}
+.container_R0{
+  background-color: #61605A;
+  width: 26vw;
+  border-radius: 25px;
+  height: 17vh;
+  margin-top: 3px;
+
+}
+
+
+
+/* .left_door{
+
+  position: absolute;
+  width: 120px;
+  height: 106px;
+  background-color: #fff;
+  top: 82vh;
+  left: 451px;
+  overflow: hidden;
+  border: 3px solid #000;
+} */
+
+/* .left_door::before{
+  content: '';
+  position: absolute;
+  width:5vw ;
+  left: 0;
+  height: 100px;
+  background-color: red;
+  transform: 1s;
+  z-index: 10;
+  border: 1px solid #000;
+
+}
+
+.left_door::after{
+  content: '';
+  position: absolute;
+  width:5vw ;
+  left: 58px;
+  height: 100px;
+  background-color: red;
+  transform: 1s;
+  z-index: 10;
+  border: 1px solid #000;
+
+} */
+
+
+
+/* steps */
+
+.etages_three ul{
+  top: 10px;
+  gap: 52px;
+  height: 62vh;
+  list-style: none;
+}
+.etages_three ul li {
+  border: 1px solid;
+  border-radius: 90px;
+  margin-top: 43px;
+  background-color: gray;
+  width: 39px;
+  padding: 6px
+}
+
+.etages_three h3{
+ 
+  color: #E71A1A;
+}
+
+.etages_three button{
+
+  width: 3vw;
+  padding: 2px;
+  border-radius: 32px;
+  padding: 6px;
+  margin-top: 52px;
+
+}
+
+
+/* sensor */
+
+#door-container {
+  display: flex;
+  justify-content: space-between;
+  width: 202px;
+  margin: 0px auto;
+  top: 400Px;
+  background-color: #000;
+border: 3px solid #000;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 463px;
+  background-color: rgb(73, 60, 60);
+}
+
+.door {
+  width: 46px;
+  height: 16vh;
+  background-color: #d31a1a;
+  transition: transform 2s ease;
+
+}
+
+#door1 {
+  transform-origin: left center;
+}
+
+#door2 {
+  transform-origin: right center;
+}
+
+/* ligne */
+.horizontal-line {
+  border: 2px; /* Remove default border */
+  height: 3px; /* Set height of the line */
+  background-color: #ee1717; /* Set color of the line */
+  margin: 20px 0; /* Adjust margin as needed */
+}
+
+/* #screen{
+  display: flex;
+  margin-left: 120px;
+  border-style: dotted;
+  border-radius: 10px;
+  height: 160px;
+  margin-top: 30px;
+  width: 350px;
+  overflow: auto;
+  background-color: #545353;
+} */
+.R44{
+  display: none;
+}
+
+.R33{
+  display: none;
+}
+
+.R22{
+  display: none;
+}
+
+.R11{
+  display: none;
+}
+.R00{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
